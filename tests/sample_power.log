@@ -1,0 +1,79 @@
+D 20:00:00.0000001 GameState.DebugPrintPower() - CREATE_GAME
+D 20:00:00.0000002 GameState.DebugPrintPower() -     GameEntity EntityID=1
+D 20:00:00.0000003 GameState.DebugPrintPower() -         tag=CARDTYPE value=GAME
+D 20:00:00.0000004 GameState.DebugPrintPower() -         tag=TURN value=1
+D 20:00:00.0000005 GameState.DebugPrintPower() -     Player EntityID=2 PlayerID=1 GameAccountId=[hi=1 lo=2]
+D 20:00:00.0000006 GameState.DebugPrintPower() -         tag=HERO_ENTITY value=64
+D 20:00:00.0000007 GameState.DebugPrintPower() -         tag=CURRENT_PLAYER value=1
+D 20:00:00.0000008 GameState.DebugPrintPower() -         tag=RESOURCES value=0
+D 20:00:00.0000009 GameState.DebugPrintPower() -     Player EntityID=3 PlayerID=2 GameAccountId=[hi=3 lo=4]
+D 20:00:00.0000010 GameState.DebugPrintPower() -         tag=HERO_ENTITY value=66
+D 20:00:00.0000011 GameState.DebugPrintPower() -         tag=CURRENT_PLAYER value=0
+D 20:00:00.0000012 GameState.DebugPrintPower() -     FULL_ENTITY - Creating ID=4 CardID=CS2_029
+D 20:00:00.0000013 GameState.DebugPrintPower() -         tag=CONTROLLER value=1
+D 20:00:00.0000014 GameState.DebugPrintPower() -         tag=CARDTYPE value=SPELL
+D 20:00:00.0000015 GameState.DebugPrintPower() -         tag=COST value=4
+D 20:00:00.0000016 GameState.DebugPrintPower() -         tag=ZONE value=HAND
+D 20:00:00.0000017 GameState.DebugPrintPower() -         tag=ZONE_POSITION value=1
+D 20:00:00.0000018 GameState.DebugPrintPower() -     FULL_ENTITY - Creating ID=5 CardID=CS2_182
+D 20:00:00.0000019 GameState.DebugPrintPower() -         tag=CONTROLLER value=1
+D 20:00:00.0000020 GameState.DebugPrintPower() -         tag=CARDTYPE value=MINION
+D 20:00:00.0000021 GameState.DebugPrintPower() -         tag=COST value=4
+D 20:00:00.0000022 GameState.DebugPrintPower() -         tag=ATK value=4
+D 20:00:00.0000023 GameState.DebugPrintPower() -         tag=HEALTH value=5
+D 20:00:00.0000024 GameState.DebugPrintPower() -         tag=ZONE value=HAND
+D 20:00:00.0000025 GameState.DebugPrintPower() -         tag=ZONE_POSITION value=2
+D 20:00:00.0000026 GameState.DebugPrintPower() -     FULL_ENTITY - Creating ID=6 CardID=
+D 20:00:00.0000027 GameState.DebugPrintPower() -         tag=CONTROLLER value=1
+D 20:00:00.0000028 GameState.DebugPrintPower() -         tag=ZONE value=DECK
+D 20:00:00.0000029 GameState.DebugPrintPower() -     FULL_ENTITY - Creating ID=34 CardID=
+D 20:00:00.0000030 GameState.DebugPrintPower() -         tag=CONTROLLER value=2
+D 20:00:00.0000031 GameState.DebugPrintPower() -         tag=ZONE value=HAND
+D 20:00:00.0000032 GameState.DebugPrintPower() -         tag=ZONE_POSITION value=1
+D 20:00:00.0000033 GameState.DebugPrintPower() -     FULL_ENTITY - Creating ID=64 CardID=HERO_08
+D 20:00:00.0000034 GameState.DebugPrintPower() -         tag=CONTROLLER value=1
+D 20:00:00.0000035 GameState.DebugPrintPower() -         tag=CARDTYPE value=HERO
+D 20:00:00.0000036 GameState.DebugPrintPower() -         tag=HEALTH value=30
+D 20:00:00.0000037 GameState.DebugPrintPower() -         tag=ZONE value=PLAY
+D 20:00:00.0000038 GameState.DebugPrintPower() -     FULL_ENTITY - Creating ID=65 CardID=HERO_08bp
+D 20:00:00.0000039 GameState.DebugPrintPower() -         tag=CONTROLLER value=1
+D 20:00:00.0000040 GameState.DebugPrintPower() -         tag=CARDTYPE value=HERO_POWER
+D 20:00:00.0000041 GameState.DebugPrintPower() -         tag=COST value=2
+D 20:00:00.0000042 GameState.DebugPrintPower() -         tag=ZONE value=PLAY
+D 20:00:00.0000043 GameState.DebugPrintPower() -     FULL_ENTITY - Creating ID=66 CardID=HERO_01
+D 20:00:00.0000044 GameState.DebugPrintPower() -         tag=CONTROLLER value=2
+D 20:00:00.0000045 GameState.DebugPrintPower() -         tag=CARDTYPE value=HERO
+D 20:00:00.0000046 GameState.DebugPrintPower() -         tag=HEALTH value=30
+D 20:00:00.0000047 GameState.DebugPrintPower() -         tag=ZONE value=PLAY
+D 20:00:00.0000048 GameState.DebugPrintGame() - PlayerID=1, PlayerName=Me#1234
+D 20:00:00.0000049 GameState.DebugPrintGame() - PlayerID=2, PlayerName=UNKNOWN HUMAN PLAYER
+D 20:00:00.0000050 GameState.DebugPrintEntityChoices() - id=1 Player=Me#1234 TaskList= ChoiceType=MULLIGAN CountMin=0 CountMax=2
+D 20:00:00.0000051 GameState.DebugPrintEntityChoices() -   Source=GameEntity
+D 20:00:00.0000052 GameState.DebugPrintEntityChoices() -   Entities[0]=[entityName=Fireball id=4 zone=HAND zonePos=1 cardId=CS2_029 player=1]
+D 20:00:00.0000053 GameState.DebugPrintEntityChoices() -   Entities[1]=[entityName=Chillwind Yeti id=5 zone=HAND zonePos=2 cardId=CS2_182 player=1]
+D 20:00:00.0000054 GameState.DebugPrintEntityChoices() - id=2 Player=Opponent#5678 TaskList= ChoiceType=MULLIGAN CountMin=0 CountMax=3
+D 20:00:00.0000055 GameState.DebugPrintEntityChoices() -   Source=GameEntity
+D 20:00:00.0000056 GameState.DebugPrintEntityChoices() -   Entities[0]=[entityName=UNKNOWN ENTITY [cardType=INVALID] id=34 zone=HAND zonePos=1 cardId= player=2]
+D 20:00:00.0000057 GameState.DebugPrintPower() - TAG_CHANGE Entity=Me#1234 tag=MULLIGAN_STATE value=DONE
+D 20:00:00.0000058 GameState.DebugPrintPower() - TAG_CHANGE Entity=Opponent#5678 tag=ARMOR value=0
+D 20:00:00.0000059 GameState.DebugPrintPower() - TAG_CHANGE Entity=Me#1234 tag=RESOURCES value=4
+D 20:00:00.0000060 GameState.DebugPrintPower() - SHOW_ENTITY - Updating Entity=[entityName=UNKNOWN ENTITY [cardType=INVALID] id=6 zone=DECK zonePos=0 cardId= player=1] CardID=EX1_066
+D 20:00:00.0000061 GameState.DebugPrintPower() -     tag=CARDTYPE value=MINION
+D 20:00:00.0000062 GameState.DebugPrintPower() -     tag=ATK value=3
+D 20:00:00.0000063 GameState.DebugPrintPower() -     tag=HEALTH value=2
+D 20:00:00.0000064 GameState.DebugPrintPower() -     tag=ZONE value=PLAY
+D 20:00:00.0000065 GameState.DebugPrintPower() -     tag=ZONE_POSITION value=1
+D 20:00:00.0000066 GameState.DebugPrintPower() - TAG_CHANGE Entity=[entityName=Acidic Swamp Ooze id=6 zone=PLAY zonePos=1 cardId=EX1_066 player=1] tag=DAMAGE value=1
+D 20:00:00.0000067 GameState.DebugPrintOptions() - id=3
+D 20:00:00.0000068 GameState.DebugPrintOptions() -   option 0 type=END_TURN mainEntity= error=INVALID errorParam=
+D 20:00:00.0000069 GameState.DebugPrintOptions() -   option 1 type=POWER mainEntity=[entityName=Fireball id=4 zone=HAND zonePos=1 cardId=CS2_029 player=1] error=NONE errorParam=
+D 20:00:00.0000070 GameState.DebugPrintOptions() -     target 0 entity=[entityName=Acidic Swamp Ooze id=6 zone=PLAY zonePos=1 cardId=EX1_066 player=1] error=NONE errorParam=
+D 20:00:00.0000071 GameState.DebugPrintOptions() -     target 1 entity=[entityName=Garrosh Hellscream id=66 zone=PLAY zonePos=0 cardId=HERO_01 player=2] error=NONE errorParam=
+D 20:00:00.0000072 GameState.DebugPrintOptions() -     target 2 entity=[entityName=Jaina Proudmoore id=64 zone=PLAY zonePos=0 cardId=HERO_08 player=1] error=REQ_YOUR_TURN errorParam=
+D 20:00:00.0000073 GameState.DebugPrintOptions() -   option 2 type=POWER mainEntity=[entityName=Chillwind Yeti id=5 zone=HAND zonePos=2 cardId=CS2_182 player=1] error=NONE errorParam=
+D 20:00:00.0000074 GameState.DebugPrintOptions() -   option 3 type=POWER mainEntity=[entityName=Wrath id=70 zone=HAND zonePos=3 cardId=EX1_154 player=1] error=NONE errorParam=
+D 20:00:00.0000075 GameState.DebugPrintOptions() -     subOption 0 entity=[entityName=Wrath id=71 zone=SETASIDE zonePos=0 cardId=EX1_154a player=1] error=NONE errorParam=
+D 20:00:00.0000076 GameState.DebugPrintOptions() -       target 0 entity=[entityName=Garrosh Hellscream id=66 zone=PLAY zonePos=0 cardId=HERO_01 player=2] error=NONE errorParam=
+D 20:00:00.0000077 GameState.DebugPrintOptions() -     subOption 1 entity=[entityName=Wrath id=72 zone=SETASIDE zonePos=0 cardId=EX1_154b player=1] error=NONE errorParam=
+D 20:00:00.0000078 GameState.DebugPrintOptions() -   option 4 type=POWER mainEntity=[entityName=Fireblast id=65 zone=PLAY zonePos=0 cardId=HERO_08bp player=1] error=REQ_ENOUGH_MANA errorParam=
+D 20:00:00.0000079 GameState.DebugPrintOptions() -   option 5 type=POWER mainEntity=[entityName=Garrosh Hellscream id=66 zone=PLAY zonePos=0 cardId=HERO_01 player=2] error=REQ_YOUR_TURN errorParam=

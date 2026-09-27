@@ -1,0 +1,49 @@
+{
+  "end_turn": [
+    0.556,
+    0.455
+  ],
+  "board_center": [
+    0.0,
+    0.47
+  ],
+  "my_hero": [
+    0.0,
+    0.765
+  ],
+  "my_hero_power": [
+    0.165,
+    0.765
+  ],
+  "my_weapon": [
+    -0.165,
+    0.775
+  ],
+  "opp_hero": [
+    0.0,
+    0.175
+  ],
+  "opp_hero_power": [
+    0.16,
+    0.217
+  ],
+  "opp_weapon": [
+    -0.16,
+    0.217
+  ],
+  "my_board_y": 0.565,
+  "opp_board_y": 0.37,
+  "minion_spacing": 0.13,
+  "hand_center_x": -0.04,
+  "hand_y": 0.93,
+  "hand_max_spacing": 0.115,
+  "hand_width": 0.5,
+  "choice_y": 0.5,
+  "choice_max_spacing": 0.3,
+  "choice_width": 0.92,
+  "mulligan_y": 0.47,
+  "mulligan_confirm": [
+    0.0,
+    0.83
+  ]
+}

@@ -1,0 +1,17 @@
+[project]
+name = "hs-assistant"
+version = "0.1.0"
+description = "Reads the Hearthstone game log and plays the options you pick."
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=3.19.2",
+    "pillow>=12.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
